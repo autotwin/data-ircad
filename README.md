@@ -12,7 +12,8 @@ Create a 3D solid model of the human ~~head~~ chest from medical images without 
 
 The 3D-IRCADb-01 database contains 3D CT scans of 10 males and 10 females with
 hepatic tumors in 75 percent of the cases.  Patient-specific data follow, which
-is an extraction from the source [table](https://www.ircad.fr/research/3d-ircadb-01/).
+is an extraction from the source 
+[table](https://www.ircad.fr/research/data-sets/liver-segmentation-3d-ircadb-01/).
 
 > 2022-08-01: Currently only `patient_1` and `patient_2` have been uploaded to the G Drive.
 
