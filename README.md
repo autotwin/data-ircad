@@ -2,7 +2,7 @@
 
 ## Advisory
 
-> 2022-08-01: Historical document included below.  Links and directories may or may not work, no effort is undertaken to restore broken links, as this is document is now only for context.
+> 2022-08-01: Historical document included below.  Links and directories may or may not work.  No effort is undertaken to restore broken links, as this is document is now only for context.
 
 ## Goal
 
@@ -11,31 +11,33 @@ Create a 3D solid model of the human ~~head~~ chest from medical images without 
 ## Data
 
 The 3D-IRCADb-01 database contains 3D CT scans of 10 males and 10 females with
-hepatic tumors in 75 percent of the cases.  Patient-specific data follows, which
+hepatic tumors in 75 percent of the cases.  Patient-specific data follow, which
 is an extraction from the source [table](https://www.ircad.fr/research/3d-ircadb-01/).
 
-Patient No. | Sex | DOB | Voxel Size (mm) | Image Size (pixels)
---- | --- | --- | --- | ---
- 1 | F | 1944 | 0.57, 0.57, 1.6 | 512, 512, 129
- 2 | F | 1987 | 0.78, 0.78, 1.6 | 512, 512, 172
- 3 | M | 1956 | 0.62, 0.62, 1.25 | 512, 512, 200
- 4 | M | 1942 | 0.74, 0.74, 2.0 | 512, 512, 91
- 5 | M | 1957 | 0.78, 0.78, 1.6 | 512, 512, 139
- 6 | M | 1929 | 0.78, 0.78, 1.6 | 512, 512, 135
- 7 | M | 1946 | 0.78, 0.78, 1.6 | 512, 512, 151
- 8 | F | 1970 | 0.56, 0.56, 1.6 | 512, 512, 124
- 9 | M | 1949 | 0.87, 0.87, 2.0 | 512, 512, 111
-10 | F | 1953 | 0.73, 0.73, 1.6 | 512, 512, 122
-11 | M | 1966 | 0.72, 0.72, 1.6 | 512, 512, 132
-12 | F | 1973 | 0.68, 0.68, 1.0 | 512, 512, 260
-13 | M | 1951 | 0.67, 0.67, 1.6 | 512, 512, 122
-14 | F | 1970 | 0.72, 0.72, 1.6 | 512, 512, 113
-15 | F | 1946 | 0.78, 0.78, 1.6 | 512, 512, 125
-16 | M | 1950 | 0.70, 0.70, 1.6 | 512, 512, 155
-17 | M | 1942 | 0.74, 0.74, 1.6 | 512, 512, 119
-18 | F | 1958 | 0.74, 0.74, 2.5 | 512, 512, 74
-19 | F | 1970 | 0.70, 0.70, 4 | 512, 512, 124
-20 | F | 1949 | 0.81, 0.81, 2 | 512, 512, 225
+> 2022-08-01: Currently only `patient_1` and `patient_2` have been uploaded to the G Drive.
+
+| Patient No. | Sex | DOB  | Voxel Size (mm)  | Image Size (pixels) | G drive link                                                                                          |
+| ----------- | --- | ---- | ---------------- | ------------------- | ----------------------------------------------------------------------------------------------------- |
+| 1           | F   | 1944 | 0.57, 0.57, 1.6  | 512, 512, 129       | [patient_1](https://drive.google.com/drive/folders/11NsNjMkWVIVS9l6xd44x282TyW7PRxjD?usp=**sharing**) |
+| 2           | F   | 1987 | 0.78, 0.78, 1.6  | 512, 512, 172       | [patient_2](https://drive.google.com/drive/folders/1TYpklL2Se09Y2LhzhGs9Ckuuap4iYlUQ?usp=sharing)     |
+| 3           | M   | 1956 | 0.62, 0.62, 1.25 | 512, 512, 200       | [patient_3]()                                                                                         |
+| 4           | M   | 1942 | 0.74, 0.74, 2.0  | 512, 512, 91        | [patient_4]()                                                                                         |
+| 5           | M   | 1957 | 0.78, 0.78, 1.6  | 512, 512, 139       | [patient_5]()                                                                                         |
+| 6           | M   | 1929 | 0.78, 0.78, 1.6  | 512, 512, 135       | [patient_6]()                                                                                         |
+| 7           | M   | 1946 | 0.78, 0.78, 1.6  | 512, 512, 151       | [patient_7]()                                                                                         |
+| 8           | F   | 1970 | 0.56, 0.56, 1.6  | 512, 512, 124       | [patient_8]()                                                                                         |
+| 9           | M   | 1949 | 0.87, 0.87, 2.0  | 512, 512, 111       | [patient_9]()                                                                                         |
+| 10          | F   | 1953 | 0.73, 0.73, 1.6  | 512, 512, 122       | [patient_10]()                                                                                        |
+| 11          | M   | 1966 | 0.72, 0.72, 1.6  | 512, 512, 132       | [patient_11]()                                                                                        |
+| 12          | F   | 1973 | 0.68, 0.68, 1.0  | 512, 512, 260       | [patient_12]()                                                                                        |
+| 13          | M   | 1951 | 0.67, 0.67, 1.6  | 512, 512, 122       | [patient_13]()                                                                                        |
+| 14          | F   | 1970 | 0.72, 0.72, 1.6  | 512, 512, 113       | [patient_14]()                                                                                        |
+| 15          | F   | 1946 | 0.78, 0.78, 1.6  | 512, 512, 125       | [patient_15]()                                                                                        |
+| 16          | M   | 1950 | 0.70, 0.70, 1.6  | 512, 512, 155       | [patient_16]()                                                                                        |
+| 17          | M   | 1942 | 0.74, 0.74, 1.6  | 512, 512, 119       | [patient_17]()                                                                                        |
+| 18          | F   | 1958 | 0.74, 0.74, 2.5  | 512, 512, 74        | [patient_18]()                                                                                        |
+| 19          | F   | 1970 | 0.70, 0.70, 4    | 512, 512, 124       | [patient_19]()                                                                                        |
+| 20          | F   | 1949 | 0.81, 0.81, 2    | 512, 512, 225       | [patient_20]()                                                                                        |
 
 ### Potential New Data Source
 
@@ -161,7 +163,7 @@ Plan
   * Python environment on HPC-LO and HPC-SYN `conda activate p2m`
 * Decision: use French-Bob, not Bob, for demonstrator to sponsors.  Rationale:
   * Bob scan is circa 2000, 19 years old; versus French data set circa 20xx.
-  * ![bob_ct_example](../fig/bob_ct_example.png) **Figure: XX** Representative slice from the Bob data set.
+  * ![bob_ct_example](fig/bob_ct_example.png) **Figure: XX** Representative slice from the Bob data set.
   * Bob CT scan has torso and arms; French data set has only torso (makes training inhomogenous).
   * Bob CT scan has circular boundary halo; French data does not.
   * MedPy library not compatible with Conda, difficult to `sudo install` on HPC-Lo and HPC-Syn, versus French study 100% set up and running today.
