@@ -15,30 +15,30 @@ hepatic tumors in 75 percent of the cases.  Patient-specific data follow, which
 is an extraction from the source 
 [table](https://www.ircad.fr/research/data-sets/liver-segmentation-3d-ircadb-01/).
 
-> 2022-08-01: Currently only `patient_1` and `patient_2` have been uploaded to the G Drive.
+> 2022-08-01: Currently only `patient_1` and `patient_2` have been uploaded to the G Drive to save hard drive space.  We are not certain if we will make use of the ircad data set because it is torso data.  We want to focus on head data for application to brain injury, emphasized by ONR.
 
 | Patient No. | Sex | DOB  | Voxel Size (mm)  | Image Size (pixels) | G drive link                                                                                          |
 | ----------- | --- | ---- | ---------------- | ------------------- | ----------------------------------------------------------------------------------------------------- |
 | 1           | F   | 1944 | 0.57, 0.57, 1.6  | 512, 512, 129       | [patient_1](https://drive.google.com/drive/folders/11NsNjMkWVIVS9l6xd44x282TyW7PRxjD?usp=**sharing**) |
 | 2           | F   | 1987 | 0.78, 0.78, 1.6  | 512, 512, 172       | [patient_2](https://drive.google.com/drive/folders/1TYpklL2Se09Y2LhzhGs9Ckuuap4iYlUQ?usp=sharing)     |
-| 3           | M   | 1956 | 0.62, 0.62, 1.25 | 512, 512, 200       | [patient_3]()                                                                                         |
-| 4           | M   | 1942 | 0.74, 0.74, 2.0  | 512, 512, 91        | [patient_4]()                                                                                         |
-| 5           | M   | 1957 | 0.78, 0.78, 1.6  | 512, 512, 139       | [patient_5]()                                                                                         |
-| 6           | M   | 1929 | 0.78, 0.78, 1.6  | 512, 512, 135       | [patient_6]()                                                                                         |
-| 7           | M   | 1946 | 0.78, 0.78, 1.6  | 512, 512, 151       | [patient_7]()                                                                                         |
-| 8           | F   | 1970 | 0.56, 0.56, 1.6  | 512, 512, 124       | [patient_8]()                                                                                         |
-| 9           | M   | 1949 | 0.87, 0.87, 2.0  | 512, 512, 111       | [patient_9]()                                                                                         |
-| 10          | F   | 1953 | 0.73, 0.73, 1.6  | 512, 512, 122       | [patient_10]()                                                                                        |
-| 11          | M   | 1966 | 0.72, 0.72, 1.6  | 512, 512, 132       | [patient_11]()                                                                                        |
-| 12          | F   | 1973 | 0.68, 0.68, 1.0  | 512, 512, 260       | [patient_12]()                                                                                        |
-| 13          | M   | 1951 | 0.67, 0.67, 1.6  | 512, 512, 122       | [patient_13]()                                                                                        |
-| 14          | F   | 1970 | 0.72, 0.72, 1.6  | 512, 512, 113       | [patient_14]()                                                                                        |
-| 15          | F   | 1946 | 0.78, 0.78, 1.6  | 512, 512, 125       | [patient_15]()                                                                                        |
-| 16          | M   | 1950 | 0.70, 0.70, 1.6  | 512, 512, 155       | [patient_16]()                                                                                        |
-| 17          | M   | 1942 | 0.74, 0.74, 1.6  | 512, 512, 119       | [patient_17]()                                                                                        |
-| 18          | F   | 1958 | 0.74, 0.74, 2.5  | 512, 512, 74        | [patient_18]()                                                                                        |
-| 19          | F   | 1970 | 0.70, 0.70, 4    | 512, 512, 124       | [patient_19]()                                                                                        |
-| 20          | F   | 1949 | 0.81, 0.81, 2    | 512, 512, 225       | [patient_20]()                                                                                        |
+| 3           | M   | 1956 | 0.62, 0.62, 1.25 | 512, 512, 200       | to come                                                                                               |
+| 4           | M   | 1942 | 0.74, 0.74, 2.0  | 512, 512, 91        | to come                                                                                               |
+| 5           | M   | 1957 | 0.78, 0.78, 1.6  | 512, 512, 139       | to come                                                                                               |
+| 6           | M   | 1929 | 0.78, 0.78, 1.6  | 512, 512, 135       | to come                                                                                               |
+| 7           | M   | 1946 | 0.78, 0.78, 1.6  | 512, 512, 151       | to come                                                                                               |
+| 8           | F   | 1970 | 0.56, 0.56, 1.6  | 512, 512, 124       | to come                                                                                               |
+| 9           | M   | 1949 | 0.87, 0.87, 2.0  | 512, 512, 111       | to come                                                                                               |
+| 10          | F   | 1953 | 0.73, 0.73, 1.6  | 512, 512, 122       | to come                                                                                               |
+| 11          | M   | 1966 | 0.72, 0.72, 1.6  | 512, 512, 132       | to come                                                                                               |
+| 12          | F   | 1973 | 0.68, 0.68, 1.0  | 512, 512, 260       | to come                                                                                               |
+| 13          | M   | 1951 | 0.67, 0.67, 1.6  | 512, 512, 122       | to come                                                                                               |
+| 14          | F   | 1970 | 0.72, 0.72, 1.6  | 512, 512, 113       | to come                                                                                               |
+| 15          | F   | 1946 | 0.78, 0.78, 1.6  | 512, 512, 125       | to come                                                                                               |
+| 16          | M   | 1950 | 0.70, 0.70, 1.6  | 512, 512, 155       | to come                                                                                               |
+| 17          | M   | 1942 | 0.74, 0.74, 1.6  | 512, 512, 119       | to come                                                                                               |
+| 18          | F   | 1958 | 0.74, 0.74, 2.5  | 512, 512, 74        | to come                                                                                               |
+| 19          | F   | 1970 | 0.70, 0.70, 4    | 512, 512, 124       | to come                                                                                               |
+| 20          | F   | 1949 | 0.81, 0.81, 2    | 512, 512, 225       | to come                                                                                               |
 
 ### Potential New Data Source
 
